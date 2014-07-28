@@ -6,3 +6,7 @@ from cckf.content.interfaces import IGrant
 def category(obj):
     return obj.category
 
+@indexer(IGrant)
+def region(obj):
+    return obj.region
+
