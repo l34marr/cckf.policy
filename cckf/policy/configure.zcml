@@ -14,4 +14,6 @@
     description="CCKF Project Policy Package."
     provides="Products.GenericSetup.interfaces.EXTENSION" />
   
+  <adapter name="classify" factory=".indexers.classify" />
+
 </configure>
