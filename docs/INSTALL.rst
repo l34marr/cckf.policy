@@ -50,3 +50,10 @@ recipe to manage your project, you can do this:
         
 You can skip the ZCML slug if you are going to explicitly include the package
 from another package's configure.zcml file.
+
+Message Translation
+-------------------
+
+plone.app.locales/locales/en/LC_MESSAGES/plone.po "— ${location},"
+plone.app.locales/locales/zh_TW/LC_MESSAGES/plone.po Remove the comma
+
